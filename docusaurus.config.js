@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docs',
+  title: 'Launchbox',
   tagline: 'Cloud Native Development',
   favicon: 'img/favicon.ico',
 
@@ -66,10 +66,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Launchbox',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Launchbox',
+          src: 'img/icon_black.png',
         },
         items: [
           {
@@ -80,7 +80,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/launchboxio/launchboxhq',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,7 +90,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'LaunchboxHQ',
             items: [
               {
                 label: 'Tutorial',
