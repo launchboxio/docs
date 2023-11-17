@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Ephemeral Kubernetes Clusters',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Create virtual clusters quickly with Launchbox, share access with your teammates,
+        and make you services globally accessible
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Addons and Packages',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Launchbox provides a library of 1 click addons, that can be leveraged by your application.
+        Self Hosted environments can also create and deploy proprietary addons
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'CI Testing',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Our Github CI integration allows you to create clusters that live for the lifetime of your PR
+        and automatically clean themselves up
       </>
     ),
   },

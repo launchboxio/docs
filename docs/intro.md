@@ -2,46 +2,40 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Launchbox!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+We're glad you're here! 
 
-## Getting Started
+## What we do
 
-Get started by **creating a new site**.
+In recent years, applications have grown increasingly complex
+- OAuth / OIDC integrations 
+- Webhooks and Callbacks 
+- Cloud Provider IAM configurations 
+- and on, and on
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Launchbox was built to solve these problems for engineers, product teams, and support staff alike. In Launchbox parlance,
+we deal with "Projects". For every project that gets created, we quickly spin up an ephemeral cluster (powered by VCluster). 
+Addons and services can then either be installed through your traditional tooling, or through one of our automation mechanisms.
 
-### What you'll need
+## Open Source, Always 
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Our ethos can be stated simply in those 3 words. We strive to keep all of our components and libraries MIT licensed, and 
+available to the public. No gotchas, no strings attached. 
 
-## Generate a new site
+There's some things we can't share, such as internal infrastructure 
+configuration and the like. You'll have to get hired to access those :wink:
 
-Generate a new Docusaurus site using the **classic template**.
+With that in mind, here's a few related stances on business:
 
-The classic template will automatically be added to your project after you run the command:
+- We don't do enterprise licensing. At all.
+- We don't put any of our features behind a paywall. 
+- We don't require any licensing to self-host the fully featured platform.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Our public SaaS platform allows engineers, teams, and organizations to leverage our distributed network of clusters. We 
+provide these environments at extremely competitive pricing, and handle all of the Day 2 operations required. However, 
+if you want to self-host the platform, we support and encourage that. And you won't have to pay us anything. We do have 
+contracts available for white glove installations, or for ongoing support, but none of that is required. You can deploy 
+the platform, kick the tires on every single feature, and use it for years before wanting a support contract. If ever
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+For the folks who would like to host Launchbox internally, you can get started [here](#open-source-always-)
